@@ -1,0 +1,33 @@
+div.option-div{
+    
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 20px;
+    translate: all 1;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    & div.img-div{
+        height: 160px;
+        width: 160px;
+        background: #fff;
+        border-radius: 50%;
+        margin: 0 auto;
+        padding-top: 55px;
+    }
+}
+
+div#rock {
+    background: radial-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+}
+
+div#scissors {
+    background: radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+}
+
+div#paper{
+    background: radial-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+}
