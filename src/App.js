@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import Header from './components/header.component';
+
 function App() {
   return (
     <div className="App">
-      React Game.
+      <Header />
     </div>
   );
 }

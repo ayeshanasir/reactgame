@@ -1,0 +1,42 @@
+div.display-header{
+    margin: 0 auto;
+    padding: 5px; 
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 5px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #fff;
+    font-weight: 700;
+
+    & div.game-name{
+        margin-left: 30px;
+        text-align: left;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+
+    & div.score-name{
+        margin: 10px 15px;
+        padding: 5px 50px;
+        background: #fff;
+        border-radius: 10px;
+        color: hsl(217, 16%, 45%);
+        display: flex;
+        flex-direction: column;
+
+        & h1 {
+            padding: none;
+            margin: none;
+            font-size: 75px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+
+        & span {
+            padding: none;
+            margin: none;
+        }
+    }
+}
